@@ -1,0 +1,73 @@
+Arguments: 
+  E:\app\Node\node.exe E:\app\Yarn\bin\yarn.js
+
+PATH: 
+  E:\app\xiaobai\product\12.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\app\Node\;E:\app\Yarn\bin\;E:\app\Git\cmd;E:\app\Java1.8\bin;E:\app\Python;E:\app\Matlab17B\bin;E:\app\Mingw\bin;C:\WINDOWS\System32\OpenSSH\;E:\app\mysql-5.7.22-winx64\bin;E:\app\Python\Scripts;E:\app\Microsoft VS Code\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\fei\AppData\Local\Microsoft\WindowsApps;C:\Users\fei\AppData\Roaming\npm;C:\Users\fei\AppData\Local\Yarn\bin;E:\app\Microsoft VS Code\bin;C:\Users\fei\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.11.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "reveal.js",
+    "version": "3.7.0",
+    "description": "The HTML Presentation Framework",
+    "homepage": "http://revealjs.com",
+    "subdomain": "revealjs",
+    "main": "js/reveal.js",
+    "scripts": {
+      "test": "grunt test",
+      "start": "grunt serve",
+      "build": "grunt"
+    },
+    "author": {
+      "name": "Hakim El Hattab",
+      "email": "hakim.elhattab@gmail.com",
+      "web": "http://hakim.se"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/hakimel/reveal.js.git"
+    },
+    "engines": {
+      "node": ">=4.0.0"
+    },
+    "devDependencies": {
+      "express": "^4.16.2",
+      "grunt": "^1.0.1",
+      "grunt-autoprefixer": "^3.0.4",
+      "grunt-cli": "^1.2.0",
+      "grunt-contrib-connect": "^1.0.2",
+      "grunt-contrib-cssmin": "^2.2.1",
+      "grunt-contrib-jshint": "^1.1.0",
+      "grunt-contrib-qunit": "^2.0.0",
+      "grunt-contrib-uglify": "^3.3.0",
+      "grunt-contrib-watch": "^1.0.0",
+      "grunt-sass": "^2.0.0",
+      "grunt-retire": "^1.0.7",
+      "grunt-zip": "~0.17.1",
+      "mustache": "^2.3.0",
+      "socket.io": "^1.7.3"
+    },
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: unable to verify the first certificate
+      at TLSSocket.<anonymous> (_tls_wrap.js:1105:38)
+      at emitNone (events.js:106:13)
+      at TLSSocket.emit (events.js:208:7)
+      at TLSSocket._finishInit (_tls_wrap.js:639:8)
+      at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:469:38)
